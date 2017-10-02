@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/costumer_care"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_costumer_care"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/costumer_care"
+                android:text="客服中心"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/credit_card"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_credit_card"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/credit_card"
+                android:text="信用卡"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/shopping_bag"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_shopping_bag"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/shopping_bag"
+                android:text="购物袋"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/shopping_cart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_shopping_cart"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/shopping_cart"
+                android:text="篮子"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/trolley"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_trolley"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/trolley"
+                android:text="购物车"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/wallet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_wallet"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/wallet"
+                android:text="钱包"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
